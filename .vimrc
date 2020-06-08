@@ -83,6 +83,7 @@ set foldnestmax=10
 set foldlevel=2
 set foldenable
 set ignorecase
+set backspace=indent,eol,start
 
 nmap <S-Up> v<Up>
 nmap <S-Down> v<Down>
