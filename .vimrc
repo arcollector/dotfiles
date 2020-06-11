@@ -21,6 +21,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'pangloss/vim-javascript'
 Plugin 'lilydjwg/colorizer'
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'morhetz/gruvbox'
 if has('nvim')
   Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
