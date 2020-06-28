@@ -260,6 +260,9 @@ export NVM_DIR="$HOME/.nvm"
 
 alias glog='git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --date=short --graph'
 
+alias androidreload='adb reverse tcp:8081 tcp:8081'
+alias devmodal='adb shell input keyevent 82'
+
 source /usr/local/share/chruby/chruby.sh
 alias be="bundle exec"
 chruby ruby
