@@ -251,7 +251,7 @@ TERM=xterm-256color
 stty -ixon
 
 export ANDROID_HOME=~/Android/Sdk
-export JAVA_HOME=/usr/local/android-studio/jre
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
